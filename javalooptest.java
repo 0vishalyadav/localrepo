@@ -1,11 +1,13 @@
-public class javalooptest {
+public class javalooptest{
     public static void main(String[] args) {
-        int i=0;
-        while (i<5) {
-            System.out.println("hell0 world");
-            i++;
+        // a simple program to display how a dicriment work
+        int coutdown=3; 
+        while (coutdown>=0) {
+            System.out.println(""+coutdown);
+            coutdown--;
+        }
+            System.out.println("happy new year");
         }
     }
 
-    
-}
+
